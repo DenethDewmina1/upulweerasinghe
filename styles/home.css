@@ -1,0 +1,110 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+body{
+  background-color: black;
+}
+
+.name {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../images/home1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 5%;
+}
+
+.logo {
+  color: white;
+  font-size: 3vw; 
+  font-weight: bold;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+span {
+  color: #ea1538;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  padding: 10px 15px;
+  font-size: 1.2em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ea1538;
+  text-decoration: underline;
+  transition: 0.4s;
+}
+
+div {
+  background-color: rgba(115, 115, 6, 0.558);
+}
+
+.content {
+  width: 90%;
+  max-width: 1000px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  color: #fff;
+  border-radius: 10px;
+  padding: 3% 4%; 
+  margin: 10% auto;
+  font-size: 29px;
+  font-family: arial;
+}
+.content img{
+  height: 100%;
+  width: 21%;
+  margin-left: 300px;
+  border-radius: 50%;
+}
+.content img:hover{
+  transform:scale(1.1);
+  transition: 0.4s;
+}
+
+
+@media screen and (max-width: 768px) {
+  .logo {
+    font-size: 5vw; 
+  }
+
+  nav ul li {
+    font-size: 1em;
+  }
+
+  .content {
+    width: 90%;
+    padding: 5% 6%;
+    margin-top: 20%;
+  }
+  .content img {
+    margin-left: 20px;
+  }
+}
+

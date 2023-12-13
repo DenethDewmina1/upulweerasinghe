@@ -1,0 +1,65 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  body{
+    background-color: black;
+  }
+  
+  .name {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/home1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 3vw; 
+    font-weight: bold;
+    font-family: "Bebas Neue", sans-serif;
+  }
+  
+  span {
+    color: #ea1538;
+    font-family: "Bebas Neue", sans-serif;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    padding: 10px 15px;
+    font-size: 1.2em;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #ea1538;
+    text-decoration: underline;
+    transition: 0.4s;
+  }
+  
+  div {
+    background-color: rgba(115, 115, 6, 0.558);
+  }
+  
